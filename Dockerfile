@@ -8,3 +8,6 @@ RUN cp -r  /tmp/static-website-example/* /usr/share/nginx/html/
 #ADD static-website-example/ /usr/share/nginx/html/
 EXPOSE 80
 ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
+
+
+##
